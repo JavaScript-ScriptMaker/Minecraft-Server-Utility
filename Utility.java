@@ -16,7 +16,7 @@ public class Utility {
         // Create JPanels
         JPanel topBar = new JPanel(); // Top bar
         topBar.setBackground(Color.WHITE);
-        topBar.setPreferredSize(new Dimension(frame.getWidth(), 50));
+        topBar.setPreferredSize(new Dimension(frame.getWidth(), 20));
         frame.add(topBar, BorderLayout.NORTH);
 
         JPanel mainPanel = new JPanel(); // Main panel
@@ -25,7 +25,7 @@ public class Utility {
 
         JPanel bottomBar = new JPanel(); // Bottom bar
         bottomBar.setBackground(Color.LIGHT_GRAY);
-        bottomBar.setPreferredSize(new Dimension(frame.getWidth(), 80));
+        bottomBar.setPreferredSize(new Dimension(frame.getWidth(), 40));
         frame.add(bottomBar, BorderLayout.SOUTH);
 
         // Add borders
