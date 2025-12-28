@@ -8,8 +8,7 @@ public class Utility {
         
         // Create a Window
         JFrame frame = new JFrame("Server Utility");
-        frame.setSize(Toolkit.getDefaultToolkit().getScreenSize().width / 2, 
-                   Toolkit.getDefaultToolkit().getScreenSize().height / 2);
+        frame.setSize(Toolkit.getDefaultToolkit().getScreenSize().width / 2, Toolkit.getDefaultToolkit().getScreenSize().height / 2);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLocationRelativeTo(null);
         frame.setLayout(new BorderLayout());
